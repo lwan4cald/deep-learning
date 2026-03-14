@@ -1,21 +1,29 @@
-# Simple Deep Learning Example
+# Deep Learning Example
 
-## Introduction
-This repository provides a simple example of deep learning using Python.
+This repository contains a simple example of deep learning using Python and TensorFlow.
 
 ## Features
 - Basic neural network implementation
 - Example dataset for training
+- Model evaluation metrics
 
-## Technology Stack
+## Tech Stack
 - Python
-- TensorFlow or PyTorch
+- TensorFlow
+- NumPy
 
 ## Usage
 1. Clone the repository.
-2. Install required packages using `pip install -r requirements.txt`.
-3. Run the training script.
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the example:
+   ```bash
+   python main.py
+   ```
 
 ## Future Plans
-- Add more complex models.
-- Include tests and validation methods.
+- Add more complex models
+- Include data preprocessing steps
+- Expand the evaluation metrics
